@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'androidfont';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+div > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+#titulo1 {
+    font-family: 'androidfont', Arial, Helvetica, sans-serif;
+    text-indent: 10px ;
+}
+#titulo2 {
+    font-family: 'androidfont', Arial, Helvetica, sans-serif;
+    background-color: rgb(117, 246, 229);
+    text-indent: 10px ;
+}
+#titulo3 {
+    font-family: 'androidfont', Arial, Helvetica, sans-serif;
+    background-color: rgb(117, 246, 229);
+    text-indent: 10px ;
+}
+#titulo4 {
+    background-color: brown;
+    text-indent: 10px ;
+}
+.cabecalho {
+    background-image: linear-gradient(to bottom, #65E670, #71BB78, #37703C);
+    color: white;
+    text-align: center;
+    padding: 1px; 
+}
+nav#menu {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    padding: 10px;
+} 
+/*
+nav > a:visited {
+    color: darkred;
+} 
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+} */
+/*Pseudo-classes Visitado q/fica vermelho mais escuro */
+a:visited {
+    color: darkred;
+ }
+ /*Passar o mouse em cima*/
+ a:hover {
+     color: black;
+     text-decoration: underline;
+ }
+ /*Quando clicado(ativo)*/
+ a:active {
+     color: yellow;
+ }
+.introducao {
+    background-color: white;
+}
+.historia {
+    background-color: blueviolet;
+}
+.aprender {
+    background-color: rgb(93, 93, 246);
+}
+.rodape {
+    background-color: coral;
+}
